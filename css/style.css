@@ -1,3 +1,56 @@
-h1{
-    color: burlywood;
+/* Corosel  */
+.orangr-bg{
+    background-color:#fceae8;
+    
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+#price{
+    color: #FF136F;
+}
+#buy-now-btn{
+    background-image: linear-gradient(to bottom, #FF5896 0%,#FF136F 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+
+/* Category Images */
+
+
+.cata-1{
+    /* background-color: orange; */
+    background-image: linear-gradient(90deg,orange,rgb(240, 197, 119))
+}
+.cata-2{
+    /* background-color: orchid; */
+    background-image: linear-gradient(90deg , orchid,rgb(236, 163, 235));
+}
+.cata-3{
+    /* background-color: blue; */
+    background-image: linear-gradient(90deg,blue,rgb(82, 82, 245))
+}
+.cata-1,.cata-2,.cata-3{
+    padding: 10px 30px;
+    border-radius:15px;
+}
+.product-categories img{
+    width: 100px;
+}
+
+
+/* SHOES CARD */
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 25px;
+}
+.card-footer{
+    border-top: none !important;
+    background-color: white !important;
 }
